@@ -2,11 +2,14 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class RockPaperScissors {
-    // Main Menu options
+    //  Counters
     private static int timesPlayed = 0;
     private static int timesWon = 0;
+    //  Main Menu options
     private static final int PLAY_GAME = 1;
     private static final int EXIT_GAME = 2;
+
+    //  The options available
     private static final String[] options = {"Rock", "Paper", "Scissors"};
 
     public static void main(String[] args) {
