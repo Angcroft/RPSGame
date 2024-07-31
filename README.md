@@ -1,6 +1,3 @@
-Sure, here's the detailed documentation for your GitHub repository in English:
-
-```markdown
 # RPSGame
 
 RPSGame is a Java implementation of the classic Rock, Paper, Scissors game using a Command Line Interface (CLI).
