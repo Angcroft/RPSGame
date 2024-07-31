@@ -3,6 +3,8 @@ import java.util.Random;
 
 public class RockPaperScissors {
     // Main Menu options
+    private static int timesPlayed = 0;
+    private static int timesWon = 0;
     private static final int PLAY_GAME = 1;
     private static final int EXIT_GAME = 2;
     private static final String[] options = {"Rock", "Paper", "Scissors"};
@@ -52,13 +54,22 @@ public class RockPaperScissors {
 
             // Determining the results
             if (userChoice == computerChoice) {
+                timesPlayed += 1;
                 System.out.println("It's a draw!");
+                System.out.println("Times won in this playthrough: " + timesWon);
+                System.out.println("Times played in this playthrough: " + timesPlayed);
             } else if ((userChoice == 0 && computerChoice == 2) ||
                        (userChoice == 1 && computerChoice == 0) ||
                        (userChoice == 2 && computerChoice == 1)) {
+                timesWon += 1;
+                timesPlayed += 1;
                 System.out.println("You won!");
+                System.out.println("Times won in this playthrough: " + timesWon);
+                System.out.println("Times played in this playthrough: " + timesPlayed);
             } else {
+                timesPlayed += 1;
                 System.out.println("You lost!");
+                System.out.println("Times played in this playthrough: " + timesPlayed);
             }
         }
     }
