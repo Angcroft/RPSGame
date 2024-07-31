@@ -8,8 +8,7 @@ RPSGame is a Java implementation of the classic Rock, Paper, Scissors game using
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [About the Use of this Project](#about-the-use-of-this-project)
 
 ## Description
 
